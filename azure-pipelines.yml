@@ -11,12 +11,12 @@ resources:
 variables:
 
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '5bc9b6fb-dedf-4546-86e9-13934afb76a9'
-  imageRepository: 'pipelinesjavascriptdocker'
+  dockerRegistryServiceConnection: '1174244b-b816-4f0c-8fc1-af9ed16c586f'
+  imageRepository: 'hugo'
   containerRegistry: 'digitalengagementacr01.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
-  imagePullSecret: 'digitalengagementacr01272474a7-auth'
+  imagePullSecret: 'digitalengagementacr0110352251-auth'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
